@@ -12,9 +12,9 @@ namespace SnakeGame {
 const Uint8 Snake::S_SNK_RED = 0x01;
 const Uint8 Snake::S_SNK_GREEN = 0xFF;
 const Uint8 Snake::S_SNK_BLUE = 0x08;
-const int Snake::S_INITIAL_SPEED = 1;
+const int Snake::S_INITIAL_SPEED = 100;
 cint Snake::S_INITIAL_DIRECTION = Snake::Direction::RIGHT;
-cint Snake::S_N_SECTS = 8;
+cint Snake::S_N_SECTS = 2;
 cint Snake::S_INITIAL_LIVES = 3;
 
 Snake::Snake(): m_speed(Snake::S_INITIAL_SPEED), m_lives(Snake::S_INITIAL_LIVES),
